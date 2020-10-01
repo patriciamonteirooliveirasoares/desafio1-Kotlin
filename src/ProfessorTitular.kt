@@ -1,3 +1,3 @@
-class ProfessorTitular (var professor: Professor,
-                        var especialidade: String) {
+class ProfessorTitular(var professor: String,
+                       var especialidade: String) {
 }

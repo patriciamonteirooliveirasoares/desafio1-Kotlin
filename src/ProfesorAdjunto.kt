@@ -1,7 +1,7 @@
-class ProfesorAdjunto (var professor: Professor,
-                       horasDeMonitoria: Double) {
+class ProfesorAdjunto(var professor: String,
+                      horasDeMonitoria: Double) {
 
-    constructor(professor: String, horasDeMonitoria: String, d: Double) : this(
+    constructor(professor: String, horasDeMonitoria: Int, d: Double) : this(
 
     )
 }

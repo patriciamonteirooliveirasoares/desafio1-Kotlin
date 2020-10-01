@@ -5,6 +5,7 @@ fun main(){
     println(aluno.sobrenome)
     println(aluno.codigoAluno)
 
+    val especialidade = ""
     var professor = Professor("Ham", "Sam", 3, 201709, especialidade)
 
     println(professor.nome)
@@ -13,6 +14,9 @@ fun main(){
     println(professor.codigoProfessor)
 
 
+    var professorTitular = ProfessorTitular("Ham", "Mini Culturas")
+
+    println(professorTitular)
 
 
 }
